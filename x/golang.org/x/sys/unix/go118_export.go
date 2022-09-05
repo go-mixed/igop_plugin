@@ -1,8 +1,6 @@
 // export by github.com/goplus/igop/cmd/qexp
 
-//go:build (aix || darwin || dragonfly || freebsd || linux || netbsd || openbsd || solaris || zos) && go1.9
-// +build aix darwin dragonfly freebsd linux netbsd openbsd solaris zos
-// +build go1.9
+//go:build go1.18
 
 package unix
 
@@ -26,6 +24,7 @@ func init() {
 			"math/bits":                              "bits",
 			"runtime":                                "runtime",
 			"sort":                                   "sort",
+			"strconv":                                "strconv",
 			"strings":                                "strings",
 			"sync":                                   "sync",
 			"syscall":                                "syscall",
@@ -428,6 +427,8 @@ func init() {
 			"IoctlKCMAttach":            reflect.ValueOf(q.IoctlKCMAttach),
 			"IoctlKCMClone":             reflect.ValueOf(q.IoctlKCMClone),
 			"IoctlKCMUnattach":          reflect.ValueOf(q.IoctlKCMUnattach),
+			"IoctlLoopGetStatus64":      reflect.ValueOf(q.IoctlLoopGetStatus64),
+			"IoctlLoopSetStatus64":      reflect.ValueOf(q.IoctlLoopSetStatus64),
 			"IoctlRetInt":               reflect.ValueOf(q.IoctlRetInt),
 			"IoctlSetInt":               reflect.ValueOf(q.IoctlSetInt),
 			"IoctlSetPointerInt":        reflect.ValueOf(q.IoctlSetPointerInt),

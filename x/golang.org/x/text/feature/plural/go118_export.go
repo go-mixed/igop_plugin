@@ -1,7 +1,6 @@
 // export by github.com/goplus/igop/cmd/qexp
 
 //go:build go1.18
-// +build go1.18
 
 package plural
 

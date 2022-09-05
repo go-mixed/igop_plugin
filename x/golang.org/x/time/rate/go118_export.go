@@ -1,15 +1,14 @@
 // export by github.com/goplus/igop/cmd/qexp
 
 //go:build go1.18
-// +build go1.18
 
 package rate
 
 import (
+	"go/token"
 	q "golang.org/x/time/rate"
 
 	"go/constant"
-	"go/token"
 	"reflect"
 
 	"github.com/goplus/igop"
