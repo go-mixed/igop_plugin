@@ -51,7 +51,6 @@ func init() {
 			"golang.org/x/crypto/ssh/internal/bcrypt_pbkdf": "bcrypt_pbkdf",
 			"hash":        "hash",
 			"io":          "io",
-			"io/ioutil":   "ioutil",
 			"log":         "log",
 			"math":        "math",
 			"math/big":    "big",

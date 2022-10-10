@@ -34,7 +34,6 @@ func init() {
 			"golang.org/x/crypto/acme": "acme",
 			"golang.org/x/net/idna":    "idna",
 			"io":                       "io",
-			"io/ioutil":                "ioutil",
 			"log":                      "log",
 			"math/rand":                "rand",
 			"net":                      "net",

@@ -48,7 +48,6 @@ func init() {
 			"image":                               "image",
 			"image/jpeg":                          "jpeg",
 			"io":                                  "io",
-			"io/ioutil":                           "ioutil",
 			"math/big":                            "big",
 			"math/bits":                           "bits",
 			"strconv":                             "strconv",

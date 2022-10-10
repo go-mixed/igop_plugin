@@ -39,7 +39,6 @@ func init() {
 			"errors":           "errors",
 			"fmt":              "fmt",
 			"io":               "io",
-			"io/ioutil":        "ioutil",
 			"math/big":         "big",
 			"net/http":         "http",
 			"runtime/debug":    "debug",
